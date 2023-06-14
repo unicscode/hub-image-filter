@@ -17,6 +17,7 @@ function App() {
     sepia: 0,
     gray: 0,
   });
+  const [preloaded, setPreloaded] = useState("");
 
   const value = {
     tabFilter,
@@ -25,6 +26,8 @@ function App() {
     setFilterClass,
     customFilter,
     setCustomFilter,
+    preloaded,
+    setPreloaded,
   };
 
   return (
